@@ -5,22 +5,31 @@
 using namespace std;
 int const SIZE = 255;
 
-int main()
+int main(int argc, char** argv)
 {
+    if (argc < 3)
+    {
+        cerr << "#ERROR input....\n";
+        return -1;
+    }
     string temp;
-    ifstream reader("a5.txt"); // открываем файл для чтения
+    string file = argv[1];
+    ifstream reader(file); // открываем файл для чтения
+    ofstream writer("test.txt", ios_base::out);
     string left = "INSERT INTO A2(text, id) VALUES('";
     string midle = "', ";
     string right = " );";
-    int les_id = 5;
-    string id_s= to_string(les_id);
+    string id_s= argv[2];
+    string query;
     while (true)
     {
         if (getline(reader, temp))
         {
             if (temp.size())
             {
-                cout << left + temp + midle + id_s + right  << endl;
+                query = left + temp + midle + id_s + right;
+                cout << query  << endl;
+                writer << query << endl;
             }
 
         }
