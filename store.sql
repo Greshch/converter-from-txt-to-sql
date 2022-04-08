@@ -1,0 +1,95 @@
+CREATE TABLE A2
+(
+	id Int not Null AUTO_INCREMENT,
+	text TINYTEXT,
+        les_id Int,
+        ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT PK PRIMARY KEY (id) 	
+) default charset utf8;
+
+INSERT INTO A2(text, les_id) VALUES('		Preset Perfect', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to an English-speaking country?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to England?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to the USA.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to this country.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Were you in America last year?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Were you in China two years ago?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you been to India?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you been to China?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you been abroad?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been abroad?', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to Spain? Not yet.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to Italy? I was there last year.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to the USA? I was there two years ago.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to Latin America? I haven\'t been there yet.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to an English-speaking country? Not yet but it\'s in my plans.', 1 );
+INSERT INTO A2(text, les_id) VALUES('Have you ever been to an English-speaking country? I haven\'t been there yet but it\'s in my plans.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve just arrived in England.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve just arrived at the airport.', 1 );
+INSERT INTO A2(text, les_id) VALUES('He\'s just arrived at the party.', 1 );
+INSERT INTO A2(text, les_id) VALUES('He\'s already mentioned it during his conversation.', 1 );
+INSERT INTO A2(text, les_id) VALUES('She\'s already mentioned it during the conversation.', 1 );
+INSERT INTO A2(text, les_id) VALUES('As I know, they\'ve already taken proper measures.', 1 );
+INSERT INTO A2(text, les_id) VALUES('She\'s always wanted to study psychology.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve always wanted to devote more free time to it.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve always to succeed in life.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve never thought about it.', 1 );
+INSERT INTO A2(text, les_id) VALUES('To be honest, I\'ve never considered it really seriously.', 1 );
+INSERT INTO A2(text, les_id) VALUES('To be honest, I\'ve never been to an English-speaking country but I\'m going to do it one day.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I\'ve been there many times.', 1 );
+INSERT INTO A2(text, les_id) VALUES('You know, I\'ve heard it a thousand times.', 1 );
+INSERT INTO A2(text, les_id) VALUES('You know, I\'ve heard it so many times.', 1 );
+INSERT INTO A2(text, les_id) VALUES('You know, I\'ve been there so many times.', 1 );
+INSERT INTO A2(text, les_id) VALUES('As I know, he released this album about a year ago.', 1 );
+INSERT INTO A2(text, les_id) VALUES('I haven\'t found any suitable yet.', 2 );
+INSERT INTO A2(text, les_id) VALUES('                 Past Continous', 3 );
+INSERT INTO A2(text, les_id) VALUES('When she called me, I was having a rest.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When he called me, I was stying at home.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I got a call from him, I was walking somewhwere in the park.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I saw them, they were playing at the stadium.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I came home, she was cooking something.', 3 );
+INSERT INTO A2(text, les_id) VALUES('She was cooking something very tasty, when I came home.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When she called me, I was thinking about her.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I was working, they were having a rest.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I was trying to fall asleep, I heard a very strange noise.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I was trying to fall asleep, the boys were playing very loudly.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I was trying to fall asleep, the men were talking about something very loudly.', 3 );
+INSERT INTO A2(text, les_id) VALUES('While we were waiting, we were getting more and more nervous.', 3 );
+INSERT INTO A2(text, les_id) VALUES('We were getting more and more nervous while we were waiting for the exam results.', 3 );
+INSERT INTO A2(text, les_id) VALUES('While we were waiting for this anouncement we were getting more and more nervous.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was watching this video yesterday at this time.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was reading a very thrilling story yesterday at 3 o\'clock in the afternoon.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was working all day yesterday.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was learning English all day yesterday.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was staying at home all day yesterday.', 3 );
+INSERT INTO A2(text, les_id) VALUES('What were you doing there? I was waiting for my friend.', 3 );
+INSERT INTO A2(text, les_id) VALUES('The sun was shining very brightly and the birds were singing.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I woke up, the sun was shining very brightly.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I came home, I drank a cup of tea.', 3 );
+INSERT INTO A2(text, les_id) VALUES('When I came home, I fell asleep.', 3 );
+INSERT INTO A2(text, les_id) VALUES('He fell asleep when he came home.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was waiting for your message.', 3 );
+INSERT INTO A2(text, les_id) VALUES('I was waiting for your answer with impatience.', 3 );
+INSERT INTO A2(text, les_id) VALUES('To tell the truth, I was waiting for your message with impatience.', 3 );
+INSERT INTO A2(text, les_id) VALUES('To tell the truth, I was waiting for this news with impatience.', 3 );
+INSERT INTO A2(text, les_id) VALUES('		Past Simple and Past Continous def', 5 );
+INSERT INTO A2(text, les_id) VALUES('When I studied at school, I didn\'t pay attention to it.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When I studied at university, my friends and I often discussed it.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When I was waiting for him, I was revising the lesson.', 5 );
+INSERT INTO A2(text, les_id) VALUES('I revised all the lessons.', 5 );
+INSERT INTO A2(text, les_id) VALUES('While I was reading that book, I was getting more and more interested in it because the plot was so thrilling.', 5 );
+INSERT INTO A2(text, les_id) VALUES('While I was reading that book, I was more and more interested in it, because it was such a thrilling book.', 5 );
+INSERT INTO A2(text, les_id) VALUES('I got more interested in this kind of issues.', 5 );
+INSERT INTO A2(text, les_id) VALUES('It started raining and we decided to go home.', 5 );
+INSERT INTO A2(text, les_id) VALUES('It was raining all day.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When I arrived at the station, he was waiting for me.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When it happened, I started thinking about it more seriously.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When it happened to me, I started thinking about it much more seriously.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When I saw him, I asked him that question.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When it started raining so heavily, I decided not to go there.', 5 );
+INSERT INTO A2(text, les_id) VALUES('When it started snowing so heavily, I decided to cancel that meeting.', 5 );
+INSERT INTO A2(text, les_id) VALUES('What were you doing, when you saw it?', 5 );
+INSERT INTO A2(text, les_id) VALUES('What were you doing, when such an unpleasant thihg happened?', 5 );
+INSERT INTO A2(text, les_id) VALUES('It was a very difficult situation. I was working hard. I was trying to do my best to earn enough money to live on.', 5 );
+INSERT INTO A2(text, les_id) VALUES('It was such a difficult situation. I was working so much. I was trying to do my best to earn enough money for a living.', 5 );
+INSERT INTO A2(text, les_id) VALUES('The situation was getting out of control and, to be honest, I didn\'t know what to do.', 5 );
