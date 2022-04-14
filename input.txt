@@ -9,3 +9,111 @@ supported
 supported
 support the initiative
 regular
+
+forget
+forgot
+forgotten
+I don't remember.
+irregular
+
+agree
+agreed
+agreed
+accept
+regular
+
+earn
+earned
+earned
+earn money
+regular
+
+thank
+thanked
+thanked
+thank you
+regular
+
+stand
+stood
+stood
+stojat
+irregular
+
+enter
+entered
+entered
+enter the room, enter a university
+regular
+
+damage
+damaged
+damaged
+regular
+damaged it badly
+
+deal
+dealt
+dealt
+deal with people
+irregular
+
+celebrate
+celebrated
+celebrated
+celbrate his birthday
+regular
+
+want
+wanted
+wanted
+want to do it
+regular
+
+send
+sent
+sent
+sent a message
+irregular
+
+stop
+stoped
+stoped
+stop doing something
+regular
+
+doubt
+doubted
+doubted
+doubt that it'll happen
+regular
+
+sound
+sounded
+sounded
+sound really strange
+regular
+
+win
+won
+won
+Who is winning now?
+irregular
+
+fall
+fell
+fallen
+He fall
+irregular
+
+pass
+passed
+passed
+pass the exam
+regular
+
+publish
+published
+published
+publish the report
+regular

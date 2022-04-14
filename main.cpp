@@ -76,15 +76,17 @@ int main(int argc, char** argv)
             }
             else
             {
-                cout << query  << endl;
-                query = beg;
+                //cout << query  << endl;
+                writer << query << endl;
+	        query = beg;
                 state = FIRST;
             }
 
         }
         else
         {
-            cout << query  << endl;
+            //cout << query  << endl;
+	    writer << query << endl;
             break;
         }
     }
